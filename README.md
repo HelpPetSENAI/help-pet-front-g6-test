@@ -11,7 +11,10 @@
   - Uma IDE de sua preferência.
 
 ## Como rodar o projeto
-Clonando este repositório basta entrar na pasta, abrir o terminal, instalar as depêndencias do projeto com o comando `` npm install `` e iniciar com `` npm run dev `` para rodar localmente.
+1. Clone este repositório. 
+2. Abra o terminal dentro da pasta.
+3. instale as depêndencias do projeto com o comando `` npm install ``.
+4. Inicie o projeto com o comando `` npm run dev `` para rodar localmente.
 
 ## Estrutura das pastas
 ```
