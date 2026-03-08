@@ -3,8 +3,8 @@
 ## Como começar a contribuir
 > Preencha as tópicos vazios desse readme de acordo com a função do seu grupo e faça alterações na seção estrutura de pastas conforme sejam feitas alterações.
 
-### Pré-requisitos
-É necessario ter:
+## Pré-requisitos
+É necessário ter:
   - Node - para rodar o projeto e utilizar as ferramentas do react.
   - npm - para instalar recursos e depêndencias do projeto.
   - git - para o versionamento do código.
@@ -49,7 +49,7 @@
 > Padrão de nomeação que deve ser seguido em todas as etapas de desenvolvimento.
 
 ### Linguagem
-- A ser decidido
+- Inglês
 
 ### Arquivos e pastas
 - kebab-case.
@@ -82,7 +82,7 @@
     }
   ```
 
-### Componentes react
+### Componentes react (componentes, páginas e estilos)
 - PascalCase.
 - Tanto as pastas quanto o nome da função do componente devem seguir este padrão para serem diferenciados de funções normais.
 - Exemplos:
@@ -103,8 +103,30 @@
     }
   ```
 
+### Páginas
+- PascalCase
+- Páginas no react são consideras componentes e devem seguir a mesma nomeação e com o prefix **page** no final.
+- Examplos:
+  ```
+    <!-- Estrutura das pastas -->
+    └─── src/
+        └── pages
+            └── ComingSoonPage.jsx
+  ```
+
+  ```jsx
+  <!-- Dentro de CommingSoonPage.jsx -->
+    export default function CommingSoonPage() {
+
+    }
+  ```
+
+### Estilos
+- PascalCase
+- Estilos também serão feitos em javascript e portanto considerados componentes, devido ao uso da dependência **styled components**.
+
 ## Requisitos
-<!-- Requisitos funcionais e não funcionais apenas do seu grupo -->
+<!-- Preencha os requisitos funcionais e não funcionais apenas do seu grupo -->
 ### Funcionais - G1
 
 ### Não funcionais -G1
