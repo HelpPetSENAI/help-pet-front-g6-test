@@ -1,4 +1,5 @@
 import Fragment from "../components/Fragment"
+import brickWall from "../assets/images/brick-wall.png"
 
 export default function ComingSoonPage() {
     return (
@@ -29,26 +30,17 @@ export default function ComingSoonPage() {
                     </filter>
                 </defs>
             </svg>
+            <div className="tittle">
+                <h1>Comming Soon</h1>
+            </div>
 
-            <svg width="0" height="0" style={{ position: 'absolute', left: 0, top: 0, overflow: 'hidden' }} aria-hidden="true">
-                <symbol id="light-brick" viewBox="0 0 130 65" preserveAspectRatio="none">
-                    <path d="M127.012 3.5V61.4033H3.5V3.5H127.012Z" fill="#39C442" stroke="black" strokeWidth="7" strokeMiterlimit="10" />
-                </symbol>
-
-                <symbol id="dark-brick" viewBox="0 0 130 65" preserveAspectRatio="none">
-                    <path d="M127.012 3.5V61.4033H3.5V3.5H127.012Z" fill="#257E2B" stroke="black" strokeWidth="7" strokeMiterlimit="10" />
-                </symbol>
+            <img src={brickWall} alt="" className="brick-wall" />
+            <svg width="26" height="597" viewBox="0 0 26 597" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 2.5H18.5V594.5H7.5V2.5Z" fill="#1A5B1F" />
+                <path d="M23.5 2.5V594.5H18.5V2.5H23.5ZM7.5 2.5V594.5H2.5V2.5H7.5Z" fill="#1A5B1F" />
+                <path d="M7.5 2.5H18.5M7.5 2.5V594.5M7.5 2.5H2.5V594.5H7.5M18.5 2.5V594.5M18.5 2.5H23.5V594.5H18.5M18.5 594.5H7.5M4.97841 559.484L19.9784 570.484M4.97841 529.484L19.9784 540.484M4.97841 499.484L19.9784 510.484M4.97841 469.484L19.9784 480.484M4.97841 291.484L19.9784 302.484M5.97841 113.484L20.9784 124.484M4.97841 441.484L19.9784 452.484M4.97841 263.484L19.9784 274.484M5.97841 85.484L20.9784 96.484M4.97841 411.484L19.9784 422.484M4.97841 233.484L19.9784 244.484M5.97841 55.484L20.9784 66.484M4.97841 381.484L19.9784 392.484M4.97841 203.484L19.9784 214.484M5.97841 25.484L20.9784 36.484M4.97841 351.484L19.9784 362.484M4.97841 173.484L19.9784 184.484M4.97841 321.484L19.9784 332.484M4.97841 143.484L19.9784 154.484" stroke="black" stroke-width="5" />
             </svg>
 
-            <svg className="brick-wall" viewBox="0 0 910 130">
-                <use href="#light-brick" x="0" y="90" width="130" height="60" />
-                <use href="#light-brick" x="130" y="90" width="130" height="60" />
-                <use href="#dark-brick" x="260" y="90" width="130" height="60" />
-                <use href="#light-brick" x="390" y="90" width="130" height="60" />
-                <use href="#light-brick" x="520" y="90" width="130" height="60" />
-                <use href="#dark-brick" x="650" y="90" width="130" height="60" />
-                <use href="#dark-brick" x="780" y="90" width="130" height="60" />
-            </svg>
 
         </Fragment>
     )
