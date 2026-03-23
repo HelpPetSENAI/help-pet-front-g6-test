@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const StyledHeader = styled.header`
+
     background: #39C442;
 
     display: flex;
