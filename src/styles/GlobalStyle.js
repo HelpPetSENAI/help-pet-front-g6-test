@@ -1,5 +1,7 @@
+// importando a função createGlobalStyle em chaves porque não é uma função export default
 import { createGlobalStyle } from "styled-components";
 
+// definindo o reset e variáveis globais normalmente
 const GlobalStyle = createGlobalStyle`
 
     * {
@@ -10,6 +12,9 @@ const GlobalStyle = createGlobalStyle`
     }
 
     :root {
+        --logo-font:"Irish Grover", system-ui;
+        --main-font:"Archivo", sans-serif;
+
         --clr-green-50: #E6FFE6;
         --clr-green-100: #B8FFB8;
         --clr-green-200: #8AFF8A;
